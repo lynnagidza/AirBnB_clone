@@ -4,7 +4,13 @@ footer {
     width: 100%;
     bottom: 0;
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: center;
     align-items: center;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 24px;
 }
